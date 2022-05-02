@@ -39,7 +39,6 @@ def get_word_and_syn_lemmas(tokens):
 def words_simlilarity_score(word1, word2):
     word1 = word1 + ".n.01"
     word2 = word2 + ".n.01"
-
     try:
         w1 = wordnet.synset(word1)
         w2 = wordnet.synset(word2)
